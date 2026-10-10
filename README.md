@@ -17,3 +17,15 @@ Una API REST diseñada para que chefs y estudiantes de gastronomía puedan docum
 | **REQ-03** | Búsqueda por ID | Permite buscar una receta específica por su identificador para consultar sus detalles mediante el método . | Media |
 | **REQ-04** | Añadir Técnica Culinaria | Permite agregar instrucciones de una técnica culinaria específica a una receta existente. | Alta |
 | **REQ-05** | Actualizar Parámetros | Permite actualizar la dificultad o el tiempo de preparación de un platillo en el sistema. | Media |
+## 4. Funcionalidades resueltas con paquetes de Spring Boot
+
+* **Autenticación:** Garantiza la identificación de cada chef o estudiante, controlando de manera precisa quién ejecuta métodos para alterar el recetario.
+* **Seguridad:** Incorpora protocolos avanzados para proteger la integridad de las rutas de la API, previniendo manipulaciones no autorizadas en el catálogo de técnicas y decoradores gastronómicos.
+* **Logs:** Facilita el rastreo profundo de errores de sistema y la captura de métricas, permitiendo auditar cada petición realizada sobre los platillos disponibles en el entorno de desarrollo.
+* **Conexión a base de datos:** Orquesta la persistencia de datos para almacenar de forma permanente y relacional toda la información estructural de las recetas, variaciones de ingredientes y tiempos de cocción.
+* **Documentación:** Integra herramientas automatizadas para generar especificaciones técnicas detalladas y estandarizadas, acelerando el entendimiento de los servicios REST implementados en el proyecto.
+
+## 5. Patrones de Diseño Aplicados
+
+* **Patrón Decorator:** Aplicado en la creación dinámica de recetas
+* **Patrón Singleton:** Implementado en el conversor de medidas global para estandarizar las conversiones en memoria.
